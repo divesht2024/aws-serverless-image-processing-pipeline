@@ -57,24 +57,32 @@ This project implements a fully automated pipeline:
 ---
 
 ## 📂 Project Structure
+
+```text id="u2xhwt"
 │
 ├── lambda/
-│ ├── index.py # Main Lambda function
-│ ├── requirements.txt # Dependencies (Pillow, etc.)
+│   ├── lambda_function.py                # Main Lambda function
+│   ├── requirements.txt        # Dependencies (Pillow, etc.)
 │
 ├── test-data/
-│ ├── sample-image.jpg # Test input files
+│   ├── sample-image.jpg        # Test input files
 │
 ├── screenshots/
-│ ├── s3-upload.png
-│ ├── lambda-success.png
-│ ├── sns-email.png
-│ ├── cloudwatch-logs.png
+│   ├── 1.Image-upload.png
+│   ├── 2.Processed-Image.png
+│   ├── 3.Image_processing_Alert
+│   ├── 4.CloudWatch_Alarm
+│   ├── 5.S3-Event_Notification
+│   ├── 6.Successful_Mail
+│   ├── 7.CloudWatch_Logs
 │
 ├── architecture/
-  ├── 
-  ├── 
+│   ├── aws-serverless-image-processing-architecture.png
+│   ├── README.md
+│
 ├── README.md
+```
+
 
 ---
 
