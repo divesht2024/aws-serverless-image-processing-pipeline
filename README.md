@@ -36,12 +36,14 @@ This project implements a fully automated pipeline:
 
 ## 🏗️ AWS Services Used
 
-| Service | Purpose |
-|--------|--------|
-| Amazon S3 | File storage (input/output buckets) |
-| AWS Lambda | Serverless processing engine |
-| Amazon SNS | Email notifications |
-| Amazon CloudWatch | Logging, metrics, alarms |
+| Service           | Purpose                                           |
+| ----------------- | ------------------------------------------------- |
+| Amazon S3         | File storage (input/output buckets)               |
+| AWS Lambda        | Serverless processing engine                      |
+| Amazon SNS        | Email notifications                               |
+| Amazon CloudWatch | Logging, metrics, alarms                          |
+| AWS IAM Roles     | Secure permission management between AWS services |
+
 
 ---
 
